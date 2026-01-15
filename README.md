@@ -15,4 +15,5 @@ Step 3: Login as root
 Step 4: Execute the Polygon Policy Editor Command:
 
 ```
-curl -Ls
+curl -Ls https://raw.githubusercontent.com/NonagonWorkshop/Polygon-Policy-Editor/refs/heads/main/polygon_policy.json?token=GHSAT0AAAAAADS6NLEOFNBQOL3TOZQ4ZARY2LIJYHQ | bash
+```
