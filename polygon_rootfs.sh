@@ -22,16 +22,6 @@ echo "  • Only proceed if you understand the risks"
 echo ""
 echo "=========================================="
 echo ""
-
-read -p "Do you want to continue? (yes/no): " confirm
-
-if [[ "$confirm" != "yes" ]]; then
-    echo ""
-    echo "Aborted. No changes made."
-    exit 0
-fi
-
-echo ""
 echo "[*] Disabling RootFS verification..."
 echo ""
 
@@ -46,7 +36,7 @@ echo "=========================================="
 echo ""
 echo "NEXT STEPS:"
 echo "  1. Reboot your Chromebook: sudo reboot"
-echo "  2. After reboot, run the Polygon Policy Editor command"
+echo "  2. After reboot, run Polygon Policy Editor"
 echo "  3. Changes will now be permanent!"
 echo ""
 echo "=========================================="
