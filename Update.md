@@ -1,4 +1,4 @@
-UPDATE: 
+UPDATE: (Policies) 
 Please note that some policies may not be added to the json list in the Octagon.sh file. 
 SecondaryAccountUseEnabled was just added to the list. 
 By default, if you use a Policy Editor and the creator forgets to add a policy such as the mentioned policy above, the policy will be set to what it's set to by default by your School Admin. 
@@ -6,3 +6,12 @@ Meaning if SecondaryAccountUseEnabled is set to false by default, and that Polic
 (It won't really cause any harm) it's just annoying as hell to look at.
 
 If you notice a specific Policy that is not added to the json list on the Octagon.sh file please let me know and i will add it to the list. Please also specify if it's a policy that should be set to true / enabled or false / disabled.
+
+UPDATE: Use of (RootFS)
+The Octagon RootFS Disabler will execute a command that should disable RootFS on both partitions 2 & 4, if it fails to do so, and gives an error about you needing "Developer Firmware, and or wants to to confirm you want to disable RootFS by executing the same command with an extra line, please execute the following commands for partitions 2 & 4:
+
+Step 1: Remount Root as Read/Write
+
+```
+sudo mount -o remount
+```
