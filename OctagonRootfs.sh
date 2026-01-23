@@ -2,14 +2,14 @@
 
 #################################################################################
 # RootFS Verification Disabler
-# For Polygon Policy Editor
+# For Octagon Policy Editor
 # Based on Pollen's RootFS.sh
 #################################################################################
 
 clear
 
 echo "=========================================="
-echo "  Welcome to Polygon RootFS Disabler"
+echo "  Welcome to Octagon RootFS Disabler"
 echo "=========================================="
 echo ""
 echo "This will disable RootFS verification to make"
