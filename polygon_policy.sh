@@ -10,7 +10,7 @@
 clear
 
 echo "=========================================="
-echo "  Welcome to Polygon Policy Editor"
+echo "  Welcome to Octotgon Policy Editor"
 echo "=========================================="
 echo ""
 echo "Heavily based off of:"
@@ -18,7 +18,7 @@ echo "  • Pollen Policy Editor"
 echo "    https://github.com/MercuryWorkshop/Pollen/"
 echo "  •  RIP Pentagon Policy Editor"
 echo "    https://github.com/NonagonWorkshop/Pentagon-Policy-Editor/"
-echo ""
+echo "Made by GamerRyker and StarkMist111960, Combines the best of Polygon and Pentagon"
 echo "=========================================="
 echo ""
 
