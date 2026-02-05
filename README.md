@@ -2,10 +2,10 @@
 # Octagon Policy Editor
 
 Welcome to Octagon Policy Editor!
-Octagon Policy Editor is our recreation of Pollen Policy Editor, Pentagon Policy Editor, and Polygon Policy Editor, it combines the best of all them, except unlike Pollen, Octagon won't remove extensions such as GoGuardian, but rather add them as force-installed extensions. You can always add your own force installed extensions to the script if you need to, or remove them!
+Octagon Policy Editor is a recreation of Pollen, Pentagon, and Polygon. This allows you to force install extensions to your liking, and if you are doing this to modify account policies, like on a school account, you can keep gogaurdian. 
 
 
-**Executing Octagon for temporary use:**
+**Using Octagon for temporary purposes:**
 
 Step 1: Make sure you are in Developer Mode
 
@@ -36,9 +36,7 @@ Step 4: Execute the Octagon RootFS Command:
 curl -Ls https://raw.githubusercontent.com/NonagonWorkshop/Octagon-Policy-Editor/refs/heads/main/OctagonRootfs.sh | bash
 ```
 
-Once the OctagonRootFS script is executed successfully, reboot your computer (sudo reboot), then head back to the VT2 Shell and execute the Octagon Policy Editor Command.
-
-If you already have RootFS Disabled, then you are not required to run the Octagon RootFS Disabler.
+If you want to do it permanantly, if RootFS verification is not yet disabled, use the RootFS script, reboot, and then run Octagon.sh.
 
 Made by: GamerRyker & StarkMist111960
 
