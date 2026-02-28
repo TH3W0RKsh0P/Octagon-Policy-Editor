@@ -41,6 +41,8 @@ if [[ -z "$EXTENSION_LIST" ]]; then
     EXTENSION_LIST='"haldlgldplgnggkjaafhelgiaglafanh;https://goguardian.com/ext/m.xml","jjfeehgdeghiknkilcildnjofkcndjcm;https://goguardian.com/licenses/update.php","mloajfnmjckfjbeeofcdaecbelnblden;https://clients2.google.com/service/update2/crx","ifajfiofeifbbhbionejdliodenmecna;https://clients2.google.com/service/update2/crx","inoeonmfapjbbkmdafoankkfajkcphgd;https://clients2.google.com/service/update2/crx"'
 fi
 
+EXT_LIST="$EXTENSION_LIST"
+
 mkdir -p /etc/opt/chrome/policies/managed
 
 cat > /etc/opt/chrome/policies/managed/octagon.json << EOF
@@ -51,7 +53,7 @@ cat > /etc/opt/chrome/policies/managed/octagon.json << EOF
   "EditBookmarksEnabled": true,
   "ChromeOsMultiProfileUserBehavior": "unrestricted",
   "DeveloperToolsAvailability": 1,
-  "QuickUnlockModeAllowlist": ["all"]
+  "QuickUnlockModeAllowlist": ["all"],
   "DefaultPopupsSetting": 1,
   "AllowDeletingBrowserHistory": true,
   "AllowDinosaurEasterEgg": true,
@@ -115,12 +117,12 @@ cat > /etc/opt/chrome/policies/managed/octagon.json << EOF
 }
 EOF
 
-cat << "SUCCESS"
+cat << SUCCESS
 
 [✓] Policies configured successfully!
 
 Extensions force-installed:
-$EXTENSION_LIST
+$EXT_LIST
 
 User policies modified successfully!
 
